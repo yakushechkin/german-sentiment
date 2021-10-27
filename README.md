@@ -39,12 +39,12 @@ After activating virtual environment, tests can be run:
 make test
 ```
 
-or Run pylint (code analysis)
+Run pylint (code analysis)
 ```
 make lint
 ```
 
-or Run black (uncompromising code formatter)
+Run black (uncompromising code formatter)
 ```
 make black
 ```
@@ -53,4 +53,5 @@ Run the app:
 ```
 python3 run.py
 ```
+
 
