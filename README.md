@@ -26,6 +26,20 @@ make run
 
 Interactive API docs: http://0.0.0.0:8000/docs
 
+Example of the POST request using cURL:
+```
+curl -X 'POST' \
+  'http://localhost:8000/predict' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "texts": [
+    "Mit keinem guten Ergebniss","Das ist gar nicht mal so gut",
+    "Total awesome!","nicht so schlecht wie erwartet",
+    "Der Test verlief positiv.","Sie fährt ein grünes Auto."]
+}'
+```
+
 ## Dev setup
 
 Create virtual environment in cloned/downloaded repository and install required packages.
