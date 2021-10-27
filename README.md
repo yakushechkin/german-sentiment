@@ -24,6 +24,8 @@ make build
 make run
 ```
 
+Interactive API docs: http://0.0.0.0:8000/docs
+
 ## Dev setup
 
 Create virtual environment in cloned/downloaded repository and install required packages.
