@@ -29,7 +29,7 @@ Interactive API docs: http://0.0.0.0:8000/docs
 Example of the POST request using cURL:
 ```
 curl -X 'POST' \
-  'http://localhost:8000/predict' \
+  'http://0.0.0.0:8000/predict' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
