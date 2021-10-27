@@ -62,7 +62,7 @@ make lint
 
 Run black (uncompromising code formatter)
 ```
-make black
+make format
 ```
 
 Run the app:
