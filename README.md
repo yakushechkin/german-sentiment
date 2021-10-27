@@ -14,12 +14,12 @@ This REST API was built with Python 3.8, [Germansentiment](https://huggingface.c
 
 1. Clone repository
 
-2. Build the container
+2. Build an image from a Dockerfile
 ```
 make build
 ```
 
-3. Run container on http://0.0.0.0:8000/: 
+3. Run the image inside of a container (http://0.0.0.0:8000/): 
 ```
 make run
 ```
