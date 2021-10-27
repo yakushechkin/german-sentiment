@@ -4,7 +4,7 @@
 
 
 # german-sentiment
-Micro service for german sentiment classification
+Micro service for German sentiment classification
 
 
 This REST API was built with Python 3.8, [Germansentiment](https://huggingface.co/oliverguhr/german-sentiment-bert), FastAPI, Uvicorn and Python standard library.
@@ -56,4 +56,17 @@ Run the app:
 python3 run.py
 ```
 
+## Deploying to Google Cloud Platform (GCP)
 
+1. Create a file app.yaml (to configure App Engine app's settings)
+2. In the cloud shell run the command to create the app:
+``` 
+gcloud app create
+```
+3. Run the following to deploy the app:
+``` 
+gcloud app deploy
+```
+Extra: Setup trigger in Google Build (create cloudbuild.yaml to configure this). A simple example of the app structure deployed on GCP can be found here: https://github.com/yakushechkin/gcloud-cd
+
+Also, a good idea is to utilize Cloud Storage (Bucket) for storing the pickled classifier.
