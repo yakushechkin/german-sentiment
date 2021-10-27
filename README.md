@@ -1,5 +1,7 @@
 [![Build Status](https://github.com/yakushechkin/german-sentiment/actions/workflows/main.yml/badge.svg)](https://github.com/yakushechkin/german-sentiment/actions/workflows/main.yml)
 
+[![Build Status](https://github.com/yakushechkin/german-sentiment/actions/workflows/docker-image.yml/badge.svg)](https://github.com/yakushechkin/german-sentiment/actions/workflows/docker-image.yml)
+
 
 # german-sentiment
 Micro service for german sentiment classification
