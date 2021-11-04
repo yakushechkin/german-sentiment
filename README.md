@@ -4,7 +4,7 @@
 
 
 # german-sentiment
-Micro service for German sentiment classification
+Microservice for German sentiment classification
 
 
 This REST API was built with Python 3.8, [Germansentiment](https://huggingface.co/oliverguhr/german-sentiment-bert), FastAPI, Uvicorn and Python standard library.
